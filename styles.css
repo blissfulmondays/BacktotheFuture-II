@@ -1,0 +1,152 @@
+:root {
+    --primary-color: #3db9d1;
+    --text-color: #151542;
+    --text-color-lighter: #e9eaeb;
+    --secondary-color: #151542;
+    --warn-color: #ffb219;
+    --yellow: #f7df08;
+    --danger-color: #f22727;
+    --white: #FFFFFF;
+    --off-white: #e9eaeb;
+    --gray: #77777d;
+    --dark-gray:#292929;
+  }
+  
+  .body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    margin: 0;
+    font-size: 1.3rem;
+    color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(photos/NBP-grit-13\ copy.jpg);
+  }
+  
+  .main__heading {
+    font-size: 2.5rem;
+  }
+  
+  .main__heading, .main__subheading {
+    text-align: center;
+  }
+  
+  .header__link, .header__logo, .main__link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .header {
+    background-color: var(--dark-gray);
+    padding: 5px 0;
+    border-bottom: var(--primary-color) 6px solid;
+  }
+
+  
+  .header__logo, .header__link {
+    font-size: 1.5rem;
+    color: var(--off-white);
+  }
+  
+  .main__link {
+    color: var(--danger-color);
+  }
+  
+  .main, .header__nav {
+    max-width: 1800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .header__nav {
+    display: flex;
+  }
+  
+  .header__link {
+    padding: 25px;
+    border: 10px;
+    margin-top: 80px;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+  }
+  
+  .nav > a:not(:first-of-type){
+    margin-left: 24px;
+  }
+  
+  .header__logo {
+    margin-right: auto;
+    text-transform: uppercase;
+  }
+  
+  .hero, .main {
+    margin-bottom: 96px;
+    box-shadow: 4px 4px 10px var(--gray);
+    background-color: var(--dark-gray);
+  }
+  
+  .hero {
+    height:900px;
+    background-image: url(photos/BTTF2_2_headerBanner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero, .hero__ctaction {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+    color:#ffb219;
+  }
+
+  .hero__ctaction, .hero__button {
+    display: none;
+  }
+  
+  .hero, .hero__button {
+    background-color: var(--off-white);
+    border: none;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .main { 
+    padding: 48px 96px;
+  }
+  
+  .main__paragraph {
+    line-height: 1.75;
+    margin: 30px;
+  
+  }
+  
+  .main__img {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 10px 20px 5px 30px;
+  }
+  
+  .footer {
+    margin-top: auto;
+    background-color: var(--gray);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 24px 0;
+    color: var(--off-white);
+  }
+  
